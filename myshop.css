@@ -1,0 +1,111 @@
+.slideUp {
+    position: relative;    
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #13121163;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .slideUp:hover .overlay {
+    height: 75%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .Image{
+    background-image: url('imgs/shop-img.jpg');
+    padding: 20px;
+    opacity: 0.9;
+    background-attachment: fixed;
+  /*  height: 500px;*/
+
+  }
+  #txt-h1{
+    color: #D2691E;
+    font-family: 'Chencery';
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+  }
+  #shop-btn1{
+    margin:0 auto;
+  }
+
+
+  .logo{
+    background: url("imgs/Home_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:60px 0 120px;
+
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 0px;
+    text-shadow: 3px 1px 1px black;
+    background-attachment: fixed;
+    
+}
+.logo h1{
+  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-shadow: 3px 1px 1px black;
+}
+.btnn{
+   
+    height: 40px;width: 110px;
+    border-radius: 120px;
+    background-color: #D2691E;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 11px;
+    border: 2px solid white;
+    margin-top: 30px;
+    text-shadow: 1px 1px 0px black;
+
+}
+.btnn:hover{
+    background-color: transparent;
+}
+/*
+#Img-round{
+  border:1px solid ;
+  border-top-radius: 30px ;
+}*/
+/*#Padd{
+  margin-top: 100px;
+}*/
